@@ -6,11 +6,10 @@ const StyleGlobal = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
-    list-style: none;
   }
 
   body{
-    padding: 80px;
+    padding: 80px 0 80px;
 
     @media (max-width: 768px) {
     padding: 15px;

@@ -9,8 +9,8 @@ const Sobre = () => (
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, nostrum fugiat? Dolorum eum iure voluptate fugiat. Aliquam fuga omnis aut eveniet, iste, a incidunt doloribus doloremque voluptatum porro distinctio id.
     </Paragrafo>
     <GithubSecao>
-      <img src="https://github-readme-stats.vercel.app/api?username=kallyassis&theme=radical&_icons=true" alt="Github seção" />
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kallyassis&layout=compact&langs_count16&theme=radical" alt="Github seção"  />
+      <img src="https://github-readme-stats.vercel.app/api?username=Kallyassis&show_icons=true&theme=radical" alt="Github seção"/>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kallyassis&layout=compact&theme=radical" alt="Github seção"/>
     </GithubSecao>
   </section>
 )

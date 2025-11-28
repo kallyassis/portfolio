@@ -1,10 +1,18 @@
+import FotoPerfil from '../../components/Avatar';
+import Paragrafo from '../../components/Paragraph';
 import Titulo from '../../components/Titulo';
-import { Imagen } from './styles';
+
+import { BotaoTema, Descricao, SidebarContainer } from './styles';
 
 const Sidebar = () => (
   <aside>
-    <Imagen src="https://github.com/kallyassis.png" alt="foto de perfil" />
-    <Titulo fontSize={20}>Kally assis</Titulo>
+    <SidebarContainer>
+      <FotoPerfil />
+      <Titulo fontSize={20}>Kally assis</Titulo>
+      <Paragrafo fontSize={16} tipo='secundario' >kallyassis</Paragrafo >
+      <Descricao tipo='principal' fontSize={12}  >Programadora Full Stack</Descricao >
+      <BotaoTema>Tocar tema</BotaoTema>
+    </SidebarContainer>
   </aside>
 );
 
